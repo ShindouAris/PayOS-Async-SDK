@@ -2,7 +2,7 @@
 name = "payos-async"
 version = "1.0.0"
 description = "Asynchronous client for PayOS API"
-readme = "README.md"
+readme = "readme.md"
 authors = [
   { name = "Chisadin chan", email = "tranthanhnam.ccc@gmail.com" }
 ]
