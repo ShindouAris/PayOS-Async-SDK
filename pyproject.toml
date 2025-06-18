@@ -1,6 +1,6 @@
 [project]
 name = "payos-async"
-version = "1.0.0"
+version = "1.0.1"
 description = "Asynchronous client for PayOS API"
 readme = "readme.md"
 authors = [
