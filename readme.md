@@ -70,7 +70,7 @@ root_project/
 ### Cài đặt từ PyPI (khuyên dùng)
 
 ```bash
-pip install payos-sdk-async
+pip install payos-async==0.1.0
 ```
 
 ### Cài đặt từ mã nguồn
