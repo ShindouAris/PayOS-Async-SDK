@@ -69,13 +69,9 @@ root_project/
 
 ### Cài đặt từ PyPI (khuyên dùng)
 
-Nếu package đã được publish lên PyPI, bạn có thể cài bằng pip:
-
 ```bash
 pip install payos-sdk-async
 ```
-
-Lệnh này sẽ tự động cài thêm `aiohttp` nếu chưa có.
 
 ### Cài đặt từ mã nguồn
 
