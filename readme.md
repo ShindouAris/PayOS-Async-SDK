@@ -74,9 +74,22 @@ pip install payos-async
 ```
 
 ### Cài đặt từ mã nguồn
+Nếu bạn muốn chỉnh sửa mã nguồn hoặc đóng góp, có thể cài đặt từ repo:
 
-> Sẽ có™
+> [!IMPORTANT]
+> Bạn cần cài đặt Python 3.7 trở lên.
 
+Clone mã nguồn về máy:
+```bash
+git clone https://github.com/ShindouAris/PayOS-Async-SDK.git
+cd PayOS-Async-SDK
+```
+Tiến hành build và cài đặt:
+```bash
+  pip install build
+  python -m build
+  pip install dist/payos_async_sdk-0.1.0-py3-none-any.whl
+```
 ## Cách sử dụng
 
 Mọi hàm gọi API đều là **bất đồng bộ**, bạn cần dùng `await`.
