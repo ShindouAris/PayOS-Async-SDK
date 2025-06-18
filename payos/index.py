@@ -17,15 +17,15 @@ class PayOS:
     ) -> None:
         # Kiểm tra kiểu dữ liệu của client_id
         if not isinstance(client_id, str):
-            raise TypeError("client_id must be a string.")
+            raise TypeError("client_id phải là một chuỗi.")
 
         # Kiểm tra kiểu dữ liệu của api_key
         if not isinstance(api_key, str):
-            raise TypeError("api_key must be a string.")
+            raise TypeError("api_key phải là một chuỗi.")
 
         # Kiểm tra kiểu dữ liệu của checksum_key
         if not isinstance(checksum_key, str):
-            raise TypeError("checksum_key must be a string.")
+            raise TypeError("checksum_key phải là một chuỗi.")
 
         self.__client_id = client_id
         self.__api_key = api_key
@@ -35,7 +35,7 @@ class PayOS:
     async def createPaymentLink(self, paymentData: PaymentData) -> Optional[CreatePaymentResult]:
         if not isinstance(paymentData, PaymentData):
             raise ValueError(
-                f"{ERROR_MESSAGE['INVALID_PARAMETER']} paymentData is not a PaymentData Type"
+                f"{ERROR_MESSAGE['INVALID_PARAMETER']} - paymentData phải là một đối tượng của lớp PaymentData."
             )
 
         url = f"{PAYOS_BASE_URL}/v2/payment-requests"
