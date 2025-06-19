@@ -1,4 +1,4 @@
-ERROR_MESSAGE_VI = {
+ERROR_MESSAGE = {
     'NO_SIGNATURE': 'Không có chữ ký.',
     'NO_DATA': 'Không có dữ liệu.',
     'INVALID_SIGNATURE': 'Chữ ký không hợp lệ.',
